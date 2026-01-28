@@ -20,10 +20,11 @@ class Student {
     public static void main(String[] args) {
         Student s = new Student();
         s.setId(101);
-        s.setName("Siam");
+        s.setName("MOUE");
         s.setCgpa(3.7);
         s.setCgpa(4.9); // invalid
 
         System.out.println(s.getId() + " " + s.getName() + " " + s.getCgpa());
     }
 }
+
